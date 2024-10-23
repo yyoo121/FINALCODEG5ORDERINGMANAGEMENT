@@ -17,10 +17,10 @@ public class Inputter implements IInputter {
         return getinput("Enter the item you want to add [use index]: ");}
     @Override
     public int getRemovalIndex() {
-        return getinput("Enter the index of the item you want to remove: ");}
+        return getinput("note: follow the new index [1-10] inside the cart\nEnter the index of the item you want to remove: ");}
     @Override
     public int getUpdateIndex() {
-        return getinput("Enter the index of the item that will update/change quantity: ");}
+        return getinput("note: follow the new index [1-10] inside the cart\nEnter the index of the item that will update/change quantity: ");}
     @Override
     public int getNewQuantity() {
         return getinput("Type new quantity: ");}
